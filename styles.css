@@ -4,7 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto',  sans-serif;
-    overflow-x: hidden
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 h1, h2, h3, h4, h5, h6{
 
@@ -230,10 +231,14 @@ padding-top: 20px;
     padding-bottom: 10px;
 }
 .footer-para{
-    width: 100%;
-    max-width: 200px;
+   
     font-weight: 300;
 
+}
+
+.row-1{
+  width: 100%;
+  max-width: 300px;
 }
 
 .footer-link{
@@ -258,11 +263,7 @@ padding-top: 20px;
 }
 
 @media (max-width: 1109px){
-  .row-footer{
-      
-   
-     
-  }
+  
   .row-2, .row-1, .row-3{
     overflow:hidden;
     word-wrap: break-word;
@@ -469,4 +470,174 @@ br
 }
 #about-footer{
     margin-top: 150px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+form input, form textarea{
+border: 0;
+margin: 10px 0;
+padding: 20px;
+outline: none;
+background-color: #ffb700;
+
+
+}
+
+form input::placeholder{
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+}
+form textarea::placeholder{
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+form h1{
+    font-weight: 300;
+}
+
+form button{
+    padding: 20px 0;
+    font-size: 20px;
+   border: none;
+   background-color: #202020;
+ color: white;
+ border-radius: 10px;
+ cursor: pointer;
+transition: all 300ms ease;
+}
+
+form button:hover{
+    background-color: #ffb700;
+    transform: scale(90%);
+}
+
+.thankyou{
+    text-align: center;
+    font-weight: 200;    
+    transition: all 300ms ease;
+    display: none;
+    padding-top: 20px;
+}
+
+.contact-us{
+    display: flex;
+    align-items: center;
+}
+.contact-infoh1{
+    font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 15px;
+
+}
+
+.pushinp{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.notp{
+    font-size: 20px;
+    padding-bottom: 8px;
+    
+}
+
+@media (max-width: 900px){
+    
+.notp{
+    font-size: 15px;
+
+}
+
+.pushinp{
+    font-size: 18px;
+
+}
+
+.header-para{
+    font-size: 20px;
+}
+.header-landing{
+    font-size: 40px;
+}
+
+
+
+
+}
+
+
+@media (max-width:693px){
+    .contact-infoh1{
+        font-size: 40px;
+    }
+
+    .contact-us{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact-uss{
+        display: flex;
+        flex-direction:column ;
+    }
+    .desc-row{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .food-img{
+        width: 100%;
+        max-height: 250px;
+    }
+    .links-nav{
+        font-size: 15px;
+    }
+    .list-nav{
+        width: 100%;
+    }
+    .abtpara{
+        font-size: 15px;
+    
+    }
+    
+}
+
+
+@media (max-width: 1100px){
+   
+    .footer-title{
+      
+        max-width: 100%;
+    }
+.row-footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 50px;
+ 
+    }
+    .row-1{
+      width: auto;
+      max-width: fit-content;
+padding-bottom: 10px;
+
+    }
+
+   
 }

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7efeba23fd.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="landing-page">
+        <img src="./assest/Background.jpg" alt="" class="bg">
+        <nav>
+            <div class="container-nav">
+                <div class="row-nav">
+                    <figure class="logo-wrap">
+                        <img src="./assest/Logo.png" class="logo" alt="">
+                    </figure>
+
+                    <ul class="lists-nav">
+                        <li class="list-nav"><a href="./index.html" class="links-nav">Home</a></li>
+                        <li class="list-nav"><a href="./menu.html" class="links-nav">Menu</a></li>
+                        <li class="list-nav"><a href="./about.html" class="links-nav">About Us</a></li>
+                        <li class="list-nav"><a href="./contact.html" class="links-nav">Contact</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <header>
+        <h1 class="our-menu">CONTACT US</h1>
+    </header>
+    <section>
+        <div class="about-container contact-uss">
+            <div class="about-row contact-us">
+                <form onsubmit="func()">
+                    <h1>GET IN TOUCH</h1>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <input type="text" id="email" placeholder="Your Email">
+                    <input type="text" id="phone" placeholder=" Your Phone Number">
+                    <textarea id="message" rows="4" placeholder="Your Message Here"></textarea>
+                    <button type="submit" class="submitbtn" onclick="clearThis()">Submit</button>
+                    <h1 class="thankyou">Thank You We Will Be In Contact With You Shortly</h1>
+                </form>
+
+                <div class="contact-info-contactthing">
+                    <h1 class="contact-infoh1">Contact Info</h1>
+                    <p class="pushinp">Let us know if you have any questions about catering or anything in general.</p>
+                    <p class="notp">123 Scarborough Ave Toronto, Ontario M1C 3M4</p>
+                    <p class="notp">Phone: 123-123-1234</p>
+                    <p class="notp">Mon - Sat 11am - 7pm</p>
+                    <p class="notp">Email: example@gmail.com</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="about-footer">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="row-1">
+                    <h1 class="footer-title">CHEF FOOD</h1>
+                    <p class="footer-para">Chef Food is a family owned restaurant in Toronto, ON. We offer unique
+                        flavors and combinations with our style and combos.</p>
+                </div>
+                <div class="row-2">
+                    <h1 class="footer-title">NAVIGATION</h1>
+                    <ul class="footer-list">
+                        <li class="li-footer"><a href="./index.html" class="footer-link">Home</a></li>
+                        <li class="li-footer"><a href="./menu.html" class="footer-link">Menu</a></li>
+                        <li class="li-footer"><a href="./about.html" class="footer-link">About Us</a></li>
+                        <li class="li-footer"><a href="./contact.html" class="footer-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="row-3">
+                    <h1 class="footer-title">CONTACT</h1>
+                    <p class="contact-info">Phone: 123-123-1234</p>
+                    <p class="contact-info">Email: example@gmail.com</p>
+                    <p class="contact-info">123 Scarborough Ave Toronto, Ontario M1C 3M4</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer-2">
+            <div class="footer-2-wrap">
+                <h1 class="h1-footer2">Developed By Ethan Gonsavles</h1>
+                <h2 class="h2-footer2">© 2022 Chef Food</h2>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
