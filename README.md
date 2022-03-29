@@ -56,7 +56,7 @@ Distributed under the  License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Ethan Gonsalves - [@twitter_handle](https://twitter.com/ethangonsalves42_) - ethgon19@gmail.com
+Ethan Gonsalves - [@ethangonsalves42_](https://twitter.com/ethangonsalves42_) - ethgon19@gmail.com
 
 
 
